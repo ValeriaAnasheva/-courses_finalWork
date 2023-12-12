@@ -1,0 +1,241 @@
+@media (max-width: 575px) {
+	.wrapper {
+		width: 90.43%;
+		margin: 0 auto;
+	}
+
+	/* Секция heading */
+	.heading {
+		padding-top: 35px;
+		padding-bottom: 35px;
+		height: 130px;
+	}
+
+	.logo__heading img {
+		width: 250px;
+		height: 60px;
+		padding-left: 27px;
+	}
+
+	.info__heading {
+		display: none;
+	}
+
+	.basket-buy__heading {
+		padding-right: 27px;
+		font-weight: var(--font-weight-bold);
+		font-size: var(--font-size-medium);
+		line-height: 143%;
+	}
+
+	.block-icon__basket-buy img {
+		width: 50.85px;
+		height: 43.87px;
+	}
+
+	/* Секция heading-content */
+
+	.heading-content {
+		padding-top: 38px;
+		padding-bottom: 68px;
+		background-position-x: center;
+	}
+
+	.blocks__heading-content {
+		text-align: center;
+		align-items: center;
+	}
+
+	.btn__heading-content {
+		font-weight: var(--font-weight-bold);
+		font-size: var(--font-size-light);
+		line-height: 152%;
+		padding: 24px 34.5px;
+	}
+
+	/* Секция pizza */
+
+	.pizza {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+
+	.blocks__pizza {
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	.flex-container__pizza {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 30px;
+	}
+
+	.flex-item__flex-container {
+		width: 380px;
+	}
+
+	/* Секция about-us */
+
+	.about-us {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+
+	.blocks__about-us {
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	.blocks__about-us h2 {
+		font-size: 36px;
+		line-height: 133%;
+	}
+
+	.flex-container__about-us {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 30px;
+	}
+
+	.flex-item__about-us {
+		width: 300px;
+	}
+
+	.flex-item__about-us img {
+		padding-top: 30px;
+		padding-bottom: 24px;
+	}
+
+	.flex-item__about-us h4 {
+		padding-bottom: 10px;
+	}
+
+	/* Секция reviews */
+
+	.reviews {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+
+	.blocks__reviews h2 {
+		font-size: 36px;
+		line-height: 133%;
+	}
+
+	/* Секция set-reviews */
+
+	.set-reviews {
+		padding-top: 90px;
+		padding-bottom: 87px;
+		align-items: center;
+	}
+
+	.flex-container__set-reviews {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.flex-item-text__set-reviews {
+		align-items: center;
+	}
+
+	.flex-item-text__set-reviews h2 {
+		text-align: center;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 133%;
+		margin-bottom: 30px;
+	}
+
+	.button__set-reviews {
+		margin: 0 auto;
+		display: block
+	}
+
+	.list-reasons {
+		width: 447px;
+	}
+
+	.flex-item-img__set-reviews img {
+		display: none;
+	}
+
+	/* Секция Contacts */
+
+	.contacts {
+		padding-top: 70px;
+		padding-bottom: 40px;
+	}
+
+	.flex-container__contacts {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.flex-item-map__contacts {
+		width: 500px;
+		height: 608px;
+		margin: 65px 33px 0 32px;
+		margin-right: 32px;
+
+
+	}
+
+	.flex-item-text__contacts {
+		text-align: center;
+		width: 525px;
+	}
+
+	.flex-item-text__contacts h2 {
+		text-align: center;
+		;
+	}
+
+	.flex-item__Contacts h2 {
+		font-size: 36px;
+		line-height: 133%;
+
+	}
+
+	/* Секция footer */
+
+	.info-footer {
+		padding-top: 40px;
+		padding-bottom: 31px;
+	}
+
+	.flex-container__info-footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.flex-container__info-footer p {
+		margin: 0 26px 25px 26px;
+		text-align: center;
+		font-size: 19px;
+	}
+}
+
+.block-social-icon {
+	display: flex;
+	gap: 43px;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-content {
+	width: 575px;
+	max-height: 639px;
+	margin: 25% auto;
+	padding: 50px 30px;
+	
+}
